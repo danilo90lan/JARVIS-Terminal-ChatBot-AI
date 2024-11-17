@@ -3,7 +3,7 @@ import openai  # Import the OpenAI Python library for API interactions
 import time  # Import the time module for adding delays in execution
 
 # Load the API key from a secrets.json file
-with open("keys.json") as f:
+with open("API.json") as f:
     secrets = json.load(f)  # Read the JSON data from the file
     api_key = secrets["api_key"]  # Extract the API key from the loaded JSON data
 
